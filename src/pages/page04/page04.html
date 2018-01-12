@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Page 04
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	Params: {{ params | json }}<br><br>
+
+	Params to send: {{ paramsToSend | json }}<br><br>
+
+	Go to Page01 (with the params to send):<br><br>
+	
+	<button ion-button (click)="onClick()">Go</button>
+</ion-content>
